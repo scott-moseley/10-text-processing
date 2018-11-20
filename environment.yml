@@ -1,4 +1,4 @@
-name: week01
+name: week10
 
 channels:
   # Conda forge - gives us lots of community-built Python packages, see https://conda-forge.org/ for details
@@ -11,8 +11,8 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - patsy
-  - scikit-learn
   - ipykernel
-  # - pip:
-  #   - pip-installable dependencies go here. Prefer Conda ones if possible...
+  - gensim
+  - spacy
+  - pip:
+    - pyLDAviz
